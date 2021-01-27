@@ -1,7 +1,9 @@
 <template>
   <div class="app">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">O mnie</router-link> |
+    <router-link to="/portfolio">Portfolio</router-link> |
+    <router-link to="/contact">Kontakt</router-link>
   </div>
   <router-view />
 </template>
